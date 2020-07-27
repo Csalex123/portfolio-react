@@ -1,0 +1,65 @@
+.nav-link {
+    color: #fff !important;
+
+    &:hover {
+        color: #01d1b8 !important;
+    }
+}
+
+/* Button Animation */
+
+.btn{
+	margin: 20px auto;
+	border: none;
+	padding: 5px 30px;
+	font-size: 35px;
+    position: relative;
+    
+    a{
+        color: white;
+    }
+
+	&::before{
+		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		content: '';
+		width: 50%;
+		height: 100%;
+		background: #01d1b8;
+        position: absolute;
+        
+		top: 0;
+		left: 0;
+	}
+
+	& .btn-text{
+		color: white !important;
+		// check out mdn docs for different types of blend modes. 
+		mix-blend-mode: difference;
+	}
+	&:hover{
+		&::before{
+			background: #01d1b8;
+			width: 100%;
+		}
+	}
+	//rounded btn styles
+	&.rounded{
+		border-radius:50px;
+		& .text-green{
+			color:#00F0B5;
+			mix-blend-mode: difference;
+		}
+		
+		&::before{
+			border-radius: 50px;
+			width: 25%;
+			background: #00F0B5;
+		}
+		&:hover{
+			&::before{
+			background: #00F0B5;
+				width: 100%;
+			}
+		}	
+	}
+}
