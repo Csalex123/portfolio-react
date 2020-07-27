@@ -4,7 +4,7 @@ import Menu from '../components/menu';
 function sobre(props) {
     return (
         <div>
-             <Menu />
+            <Menu title="Sobre - Alex Ricardo" description="Alex Ricardo desenvolvedor web" />
             <h1>Sobre</h1>
         </div>
     );
