@@ -1,0 +1,12 @@
+@import "template.scss";
+@import "components.scss";
+
+body {
+    background-color: #dcdad7;
+}
+
+nav {
+    .img-fluid {
+        height: 38px;
+    }
+}

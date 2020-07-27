@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nfunction NotFound(props) {\n  return __jsx(\"div\", null, __jsx(\"h1\", null, \"EROR 404 | A P\\xC1GINA QUE VOC\\xCA EST\\xC1 PROCURANDO N\\xC3O EXISTE\"));\n}\n\nexport default NotFound;","map":null,"metadata":{},"sourceType":"module"}
