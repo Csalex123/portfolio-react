@@ -4,7 +4,7 @@ import Footer from '../components/footer';
 
 import { AnimatePresence, motion } from 'framer-motion';
 
-import Ilustracao from '../static/images/sobre/ilustracao.svg';
+import Ilustracao from '../static/images/sobre/teste.png';
 import FotoAlex from '../static/images/sobre/alex.jpg';
 
 import '../static/styles/sass/sobre.scss';
@@ -16,8 +16,6 @@ function sobre(props) {
         ease: 'anticipate',
         duration: 1
     }
-
-
 
     return (
         <>
