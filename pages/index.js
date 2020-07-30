@@ -5,10 +5,12 @@ import Link from 'next/link';
 import '../static/styles/sass/index.scss';
 import Gif from '../static/images/code.gif';
 
+import '../static/styles/sass/index.scss';
+
 function Index(props) {
     return (
         <>
-            <Menu title="Alex Ricardo - Home" description="Alex Ricardo desenvolvedor web" />
+            <Menu title="Alex Ricardo - Home" description="Alex Ricardo desenvolvedor web"  active={true} />
 
             <div className="container-fluid home position-relative" style={{ backgroundImage: `url(${Gif})` }}>
 
@@ -25,7 +27,6 @@ function Index(props) {
                                 </Link>
                             </span>
                         </button>
-                        {/* <a class="about__btn about__animation">Saiba mais</a> */}
                     </div>
                 </div>
 
