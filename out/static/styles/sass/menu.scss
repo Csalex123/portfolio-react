@@ -1,8 +1,14 @@
 @import "template.scss";
 @import "components.scss";
 
-body {
-    background-color: #dcdad7;
+
+.navbar{
+    border-bottom: 1px solid #fff;
+    
+    a{
+        color: black !important;
+        font-weight: 400;
+    }
 }
 
 nav {

@@ -1,11 +1,39 @@
 import React from 'react';
 import Menu from '../components/menu';
 
+import { AnimatePresence, motion } from 'framer-motion';
+
 function portfolio(props) {
+
+    const pageTransition = {
+        type: "tween",
+        ease: 'anticipate',
+        duration: 1
+    }
+
+    const pageVariants = {
+        initial: {
+            opacity: 0,
+            x: "-100vw",
+            scale: 0.8,
+        },
+        in: {
+            opacity: 1,
+            x: 0,
+            scale: 1,
+        },
+        out: {
+            opacity: 0,
+            x: "100vw",
+            scale: 1.2,
+        }
+    }
+
+
     return (
         <div>
             <Menu title="Portfólio - Alex Ricardo" description="Alex Ricardo desenvolvedor web"  />
-            <h1>Porfólio</h1>
+            <motion.h1 initial="initial" animate="in" exit="out" variants={pageVariants} transition={pageTransition} >Porfólio</motion.h1>
         </div>
     );
 }
