@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@engineerapart/nextscript": "^2.0.2",
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "framer-motion": "^2.3.0",
     "next": "^9.4.4",

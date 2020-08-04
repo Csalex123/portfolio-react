@@ -1,54 +1,56 @@
 import React from 'react';
+
+// import Document, { Html, Head, Main, NextScript } from 'next/document'
+
+import Seo from '../components/seo';
 import Menu from '../components/menu';
-import Link from 'next/link';
+import Load from '../components/load';
+import Capa from '../components/capa';
+import About from '../components/about';
+import Service from '../components/service';
+import Portfolio from '../components/portfolio';
+import Experiencie from '../components/experience';
+import Contact from '../components/contact';
+import Footer from '../components/footer';
 
-import { AnimatePresence, motion } from 'framer-motion';
-
-import Gif from '../static/images/code.gif';
-import '../static/styles/sass/index.scss';
-
-function Index(props) {
-
-    const pageTransition = {
-        type: "tween",
-        ease: 'anticipate',
-        duration: .7
-    }
-
+function index(props) {
     return (
         <>
-            <Menu title="Alex Ricardo - Home" description="Alex Ricardo desenvolvedor web" active={true} />
-            <div className="container-fluid home position-relative" style={{ backgroundImage: `url(${Gif})` }}>
+            <Seo title="Alex Ricardo" description="descrição" />
 
-                <div class="home__content">
-                    <div className="home__title ">
-                        <motion.h1
-                            initial={{ opacity: 0, x: "-100vw", scale: 0.8 }}
-                            animate={{ opacity: 1, x: 0, scale: 1 }}
-                            exit={{ opacity: 0, x: "100vw", scale: 1.2 }}
-                            transition={pageTransition}
-                        >Procurando um desenvolvedor web?</motion.h1>
-                    </div>
 
-                    <div className="home__about">
-                        <motion.button
-                            initial={{ opacity: 0, x: "100vw", scale: 0.8 }}
-                            animate={{ opacity: 1, x: 0, scale: 1 }}
-                            exit={{ opacity: 0, x: "-100vw", scale: 1.2 }}
-                            transition={pageTransition}
-                            className="btn">
-                            <span className="btn-text">
-                                <Link href="/sobre">
-                                    <a>Saiba Mais</a>
-                                </Link>
-                            </span>
-                        </motion.button>
+            <body className="dark">
+                <Load />
+
+                <div className="arlo_tm_all_wrap">
+                    <div className="wrapper_inner">
+                        <Menu />
+
+                        <div className="arlo_tm_rightpart">
+                            <div className="rightpart_inner">
+                                <Capa />
+                                <About />
+                                <Service />
+                                <Portfolio />
+                                <Experiencie />
+                                <Contact />
+                                <Footer />
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
-            </div>
+
+                
+                <script type="text/javascript" src="../static/js/jquery.js"></script>
+                <script type="text/javascript" src="../static/js/plugins.js"></script>
+                <script type="text/javascript" src="../static/js/init.js"></script>
+            </body>
+
+
         </>
     );
 }
 
-export default Index;
+export default index;
