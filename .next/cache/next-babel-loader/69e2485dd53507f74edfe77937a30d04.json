@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nfunction load(props) {\n  return __jsx(\"div\", {\n    className: \"arlo_tm_preloader\"\n  }, __jsx(\"div\", {\n    className: \"spinner_wrap\"\n  }, __jsx(\"div\", {\n    className: \"spinner\"\n  })));\n}\n\nexport default load;","map":null,"metadata":{},"sourceType":"module"}

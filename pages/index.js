@@ -1,8 +1,6 @@
 import React from 'react';
+import Head from 'next/head';
 
-// import Document, { Html, Head, Main, NextScript } from 'next/document'
-
-import Seo from '../components/seo';
 import Menu from '../components/menu';
 import Load from '../components/load';
 import Capa from '../components/capa';
@@ -16,8 +14,9 @@ import Footer from '../components/footer';
 function index(props) {
     return (
         <>
-            <Seo title="Alex Ricardo" description="descrição" />
-
+            <Head>
+                <title>Alex Ricardo</title>
+            </Head>
 
             <body className="dark">
                 <Load />
@@ -40,12 +39,6 @@ function index(props) {
 
                     </div>
                 </div>
-
-
-                
-                <script type="text/javascript" src="../static/js/jquery.js"></script>
-                <script type="text/javascript" src="../static/js/plugins.js"></script>
-                <script type="text/javascript" src="../static/js/init.js"></script>
             </body>
 
 
