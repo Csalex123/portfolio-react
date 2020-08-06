@@ -2,6 +2,8 @@ import React from 'react';
 import Background from '../static/images/slider/code.gif';
 import Alex from '../static/images/about/3.jpg';
 
+import { FaAngleDown } from 'react-icons/fa';
+
 function capa(props) {
     return (
         <div className="arlo_tm_section" id="home">
@@ -21,7 +23,7 @@ function capa(props) {
                     </div>
                 </div>
                 <div className="arlo_tm_arrow_wrap bounce anchor">
-                    <a href="#about"><i className="fas fa-chevron-down" /></a>
+                    <a href="#about" ><FaAngleDown size={30} /></a>
                 </div>
             </div>
         </div>

@@ -1,10 +1,28 @@
 import React from 'react';
 import LogoMobile from '../static/images/logo/mobile.png';
 
-import { FaFacebook, FaLinkedin, FaInstagram, FaGithub } from 'react-icons/fa';
+import {
+    FaFacebook,
+    FaLinkedin,
+    FaInstagram,
+    FaGithub,
+    FaHome,
+    FaUserGraduate,
+    FaLaptopCode,
+    FaNetworkWired,
+    FaEnvelope,
+    FaClipboardCheck,
+
+
+} from 'react-icons/fa';
 
 
 function menu(props) {
+
+    const corIcon = {
+        color: "#FF214F",
+    }
+
     return (
 
         <>
@@ -38,11 +56,12 @@ function menu(props) {
                     <div className="container">
                         <div className="dropdown_inner">
                             <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#services">Services</a></li>
-                                <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#home"><FaHome style={corIcon} />Home</a></li>
+                                <li><a href="#about"><FaUserGraduate style={corIcon} /> Sobre</a></li>
+                                <li><a href="#services"><FaLaptopCode style={corIcon} /> Tecnologias</a></li>
+                                <li><a href="#portfolio"><FaNetworkWired  style={corIcon}/> Portfólio</a></li>
+                                <li><a href="#experience"><FaClipboardCheck  style={corIcon}/> Experiência</a></li>
+                                <li><a href="#contact"><FaEnvelope style={corIcon} /> Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -59,11 +78,12 @@ function menu(props) {
                     </div>
                     <div className="menu scrollable">
                         <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#portfolio">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#home"><FaHome style={corIcon} /> Home</a></li>
+                            <li><a href="#about"><FaUserGraduate style={corIcon} /> Sobre</a></li>
+                            <li><a href="#services"><FaLaptopCode style={corIcon} /> Tecnologias</a></li>
+                            <li><a href="#portfolio"><FaNetworkWired  style={corIcon}/> Portfólio</a></li>
+                            <li><a href="#experience"><FaClipboardCheck  style={corIcon}/> Experiência</a></li>
+                            <li><a href="#contact"><FaEnvelope style={corIcon} /> Contato</a></li>
                         </ul>
                     </div>
                     <div className="bottom" >
