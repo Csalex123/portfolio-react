@@ -2,8 +2,8 @@ import React from 'react';
 
 function contact(props) {
     return (
-        <div className="arlo_tm_section" id="contact">
-            <div className="arlo_tm_contact">
+        <div className="arlo_tm_section" id="contact" >
+            <div className="arlo_tm_contact" style={{backgroundColor : "#101010"}}>
                 <div className="container">
                     <div className="arlo_title_holder">
                         <span>Get in Touch</span>

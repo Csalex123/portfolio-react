@@ -5,7 +5,7 @@ import Portfolio from '../static/images/svg/portfolio.svg';
 
 function experience(props) {
     return (
-        <div className="arlo_tm_section" id="experience">
+        <div className="arlo_tm_section" id="experience" style={{backgroundColor : "#191919"}}>
             <div className="arlo_tm_timeline">
                 <div className="container">
                     <div className="arlo_title_holder">
@@ -43,7 +43,6 @@ function experience(props) {
                                         <p className="text">Atualmente trabalho em uma Agência de Marketing Digital(Berlim Digital) desenvolvendo Landing Pages, Websites e E-commercers </p>
                                     </div>
                                 </li>
-
                             </ul>
                         </div>
                     </div>

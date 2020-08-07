@@ -4,7 +4,7 @@ function footer(props) {
     const currentYear = new Date().getFullYear();
 
     return (
-        <div className="arlo_tm_footer">
+        <div className="arlo_tm_footer" style={{backgroundColor : "#191919"}}>
             <div className="container">
                 <div className="footer_inner">
                     <div className="copy">
