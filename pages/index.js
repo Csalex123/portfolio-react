@@ -5,7 +5,7 @@ import Menu from '../components/menu';
 import Load from '../components/load';
 import Capa from '../components/capa';
 import About from '../components/about';
-import Service from '../components/service';
+import Tecnology from '../components/tecnologia';
 import Portfolio from '../components/portfolio';
 import Experiencie from '../components/experience';
 import Contact from '../components/contact';
@@ -29,7 +29,7 @@ function index(props) {
                             <div className="rightpart_inner">
                                 <Capa />
                                 <About />
-                                <Service />
+                                <Tecnology />
                                 <Portfolio />
                                 <Experiencie />
                                 <Contact />

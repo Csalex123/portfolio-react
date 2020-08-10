@@ -23,7 +23,7 @@ function about(props) {
                                         <div className="inner" data-img-url={ImgAbout} />
                                     </div>
                                     <div className="border layer" data-depth="0.2">
-                                        <img src="../static/images/about/550x650.jpg" alt />
+                                        <img src="../static/images/about/550x650.jpg" alt="card" />
                                         <div className="inner" />
                                     </div>
                                 </div>

@@ -25,7 +25,7 @@ function portfolio(props) {
                                     <div className="inner">
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Popup Video" data-category="Video">
                                             <a className="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
-                                                <img src="img/portfolio/600x600.jpg" alt />
+                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
                                                 <div className="main_image" data-img-url="img/portfolio/1.jpg" />
                                             </a>
                                         </div>
@@ -35,7 +35,7 @@ function portfolio(props) {
                                     <div className="inner">
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Popup Image" data-category="Image">
                                             <a className="zoom" href="img/portfolio/2.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt />
+                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
                                                 <div className="main_image" data-img-url="img/portfolio/2.jpg" />
                                             </a>
                                         </div>
@@ -45,7 +45,7 @@ function portfolio(props) {
                                     <div className="inner">
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Animate Image" data-category="Animation">
                                             <a className="zoom" href="img/portfolio/8.webp">
-                                                <img src="img/portfolio/600x600.jpg" alt />
+                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
                                                 <div className="main_image" data-img-url="img/portfolio/8.webp" />
                                             </a>
                                         </div>
@@ -55,7 +55,7 @@ function portfolio(props) {
                                     <div className="inner">
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Popup Image" data-category="Image">
                                             <a className="zoom" href="img/portfolio/4.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt />
+                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
                                                 <div className="main_image" data-img-url="img/portfolio/4.jpg" />
                                             </a>
                                         </div>
@@ -65,7 +65,7 @@ function portfolio(props) {
                                     <div className="inner">
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Popup Image" data-category="Image">
                                             <a className="zoom" href="img/portfolio/5.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt />
+                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
                                                 <div className="main_image" data-img-url="img/portfolio/5.jpg" />
                                             </a>
                                         </div>
@@ -75,7 +75,7 @@ function portfolio(props) {
                                     <div className="inner">
                                         <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Popup Image" data-category="Image">
                                             <a className="zoom" href="img/portfolio/6.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt />
+                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
                                                 <div className="main_image" data-img-url="img/portfolio/6.jpg" />
                                             </a>
                                         </div>

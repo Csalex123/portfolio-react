@@ -1,53 +1,93 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 function contact(props) {
+
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [mensagem, setMensagem] = useState('');
+
+    const corIcon = {
+        color: "#FF214F",
+    }
+
+    const button = {
+        border: "none",
+        outline: "none",
+        cursor: "pointer",
+        color: "#fff",
+        backgroundColor: "#ff214f",
+        display: "inline-block",
+        padding: "10px 45px",
+        fontFamily: "Montserrat",
+        position: "relative",
+        overflow: "hidden",
+    }
+
+    function handleContato(e) {
+        e.preventDefault();
+
+        const data = {
+            nome, email, mensagem
+        }
+
+        console.log(data);
+    }
+
     return (
         <div className="arlo_tm_section" id="contact" >
-            <div className="arlo_tm_contact" style={{backgroundColor : "#101010"}}>
+            <div className="arlo_tm_contact" style={{ backgroundColor: "#101010" }}>
                 <div className="container">
                     <div className="arlo_title_holder">
-                        <span>Get in Touch</span>
-                        <h3>Contact</h3>
+                        <span>Alguma dúvida? Entre em contato</span>
+                        <h3>Contato</h3>
                     </div>
                     <div className="contact_inner">
                         <div className="short_list">
                             <ul>
                                 <li>
-                                    <img className="svg" src="img/svg/location-1.svg" alt />
-                                    <h3>Location</h3>
-                                    <p>Ave 11, New York, USA</p>
+                                    <div style={{ textAlign: "center" }}>
+                                        <i className="fas fa-map-marker-alt fa-2x" style={corIcon}></i>
+                                        <h3>Localização</h3>
+                                        <p>Brasil - Pernambuco</p>
+                                    </div>
                                 </li>
                                 <li>
-                                    <img className="svg" src="img/svg/message-3.svg" alt />
-                                    <h3>Email</h3>
-                                    <p>mymail@gmail.com</p>
+                                    <div style={{ textAlign: "center" }}>
+                                        <i className="fas fa-envelope-open-text fa-2x" style={corIcon}></i>
+                                        <h3>Email</h3>
+                                        <p>alex.ricardo1999hotmail.com</p>
+                                    </div>
                                 </li>
                                 <li>
-                                    <img className="svg" src="img/svg/call-2.svg" alt />
-                                    <h3>Phone</h3>
-                                    <p>+77 022 177 05 05</p>
+                                    <div style={{ textAlign: "center" }}>
+                                        <i className="fab fa-whatsapp fa-2x" style={corIcon}></i>
+                                        <h3> Whatsapp</h3>
+
+                                        <p>+55 (81) 98572-4176 </p>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
                         <div className="fields">
-                            <form action="/" method="post" className="contact_form" id="contact_form">
+                            <form onSubmit={handleContato} className="contact_form" >
                                 <div className="returnmessage" data-success="Your message has been received, We will contact you soon." />
                                 <div className="empty_notice"><span>Please Fill Required Fields</span></div>
                                 <div className="first">
                                     <ul>
                                         <li>
-                                            <input id="name" type="text" placeholder="Name" />
+                                            <input type="text" placeholder="Nome" value={nome} onChange={e => setNome(e.target.value)} required />
                                         </li>
                                         <li>
-                                            <input id="email" type="text" placeholder="Email" />
+                                            <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} required />
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="last">
-                                    <textarea id="message" placeholder="Message" defaultValue={""} />
+                                    <textarea placeholder="Mensagem" value={mensagem} onChange={e => setMensagem(e.target.value)} required />
                                 </div>
                                 <div className="arlo_tm_button">
-                                    <a id="send_message" href="#">Send Message</a>
+                                    <button type="submit" style={button}>Enviar Formulário</button>
                                 </div>
                             </form>
                         </div>
