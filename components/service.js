@@ -1,91 +1,135 @@
 import React from 'react';
 
+import { FaReact } from 'react-icons/fa';
+
 function service(props) {
+
+    const textCenter = {
+        textAlign: "center"
+    }
+
+    const corIcon = {
+        color: "#FF214F",
+    }
+
     return (
         <div className="arlo_tm_section" id="services">
             <div className="arlo_tm_services">
                 <div className="container">
                     <div className="arlo_title_holder">
-                        <span>What I Do</span>
-                        <h3>Services</h3>
+                        <span>Algumas tecnologias que tenho conhecimento</span>
+                        <h3>Tecnologias</h3>
                     </div>
                     <div className="service_inner">
                         <ul>
                             <li>
                                 <div className="inner">
-                                    <img className="svg" src="img/svg/source.svg" alt />
-                                    <h3>Web Developmnet</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <div style={textCenter}>
+                                        <i class="fab fa-html5 fa-3x" style={corIcon}></i>
+                                        <h3>HTML 5</h3>
+                                    </div>
                                 </div>
                             </li>
+
                             <li>
                                 <div className="inner">
-                                    <img className="svg" src="img/svg/line-chart.svg" alt />
-                                    <h3>Brand Identity</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <div style={textCenter}>
+                                        <i class="fab fa-css3 fa-3x" style={corIcon}></i>
+                                        <h3>CSS 3</h3>
+                                    </div>
                                 </div>
                             </li>
+
                             <li>
                                 <div className="inner">
-                                    <img className="svg" src="img/svg/light-bulb.svg" alt />
-                                    <h3>Creative Design</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <div style={textCenter}>
+                                        <i class="fab fa-js fa-3x" style={corIcon}></i>
+                                        <h3>JavaScript</h3>
+                                    </div>
                                 </div>
                             </li>
+
                             <li>
                                 <div className="inner">
-                                    <img className="svg" src="img/svg/adobe-illustrator.svg" alt />
-                                    <h3>Adobe Illustrator</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <div style={textCenter}>
+                                        <i class="fab fa-react fa-3x" style={corIcon}></i>
+                                        <h3>React JS</h3>
+                                    </div>
                                 </div>
                             </li>
+
                             <li>
                                 <div className="inner">
-                                    <img className="svg" src="img/svg/adobe-photoshop.svg" alt />
-                                    <h3>Adobe Photoshop</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <div style={textCenter}>
+                                        <i class="fab fa-react fa-3x" style={corIcon}></i>
+                                        <h3>React Native</h3>
+                                    </div>
                                 </div>
                             </li>
+
                             <li>
                                 <div className="inner">
-                                    <img className="svg" src="img/svg/twitter-1.svg" alt />
-                                    <h3>Social Media</h3>
-                                    <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                    <div style={textCenter}>
+                                        <i class="fas fa-code fa-3x" style={corIcon}></i>
+                                        <h3>Jquery</h3>
+                                    </div>
                                 </div>
                             </li>
+
+                            <li>
+                                <div className="inner">
+                                    <div style={textCenter}>
+                                        <i class="fab fa-sass fa-3x" style={corIcon}></i>
+                                        <h3>Sass</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="inner">
+                                    <div style={textCenter}>
+                                        <i class="fab fa-bootstrap fa-3x" style={corIcon}></i>
+                                        <h3>Boostrap</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="inner">
+                                    <div style={textCenter}>
+                                        <i class="fas fa-database fa-3x" style={corIcon}></i>
+                                        <h3>SQL</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div className="inner">
+                                    <div style={textCenter}>
+                                        <i class="fab fa-node fa-3x" style={corIcon}></i>
+                                        <h3>Node.JS</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="inner">
+                                    <div style={textCenter}>
+                                        <i class="fab fa-php fa-3x" style={corIcon}></i>
+                                        <h3>PHP</h3>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div className="inner">
+                                    <div style={textCenter}>
+                                        <i class="fab fa-java fa-3x" style={corIcon}></i>
+                                        <h3>Java</h3>
+                                    </div>
+                                </div>
+                            </li>                  
                         </ul>
-                        <div className="arlo_tm_progress_wrap">
-                            <div className="progress_wrap_inner">
-                                <div className="left">
-                                    <div className="main_title">
-                                        <h3>In a <span>short time</span>, I have been able to achieve excellence in all areas of app and web development.</h3>
-                                    </div>
-                                    <div className="text">
-                                        <p>I provide cost-effective and high quality products to meet our Clients’ needs of timely delivery World Wide. I want to be local in a global world to be where our Customers need our services customers need our services.</p>
-                                    </div>
-                                </div>
-                                <div className="right">
-                                    <div className="arlo_progress">
-                                        <div className="progress_inner" data-value={95} data-color="#ff214f">
-                                            <span><span className="label">Web Development</span><span className="number">95%</span></span>
-                                            <div className="background"><div className="bar"><div className="bar_in" /></div></div>
-                                        </div>
-                                        <div className="progress_inner" data-value={80} data-color="#ff214f">
-                                            <span><span className="label">Brand Identity</span><span className="number">80%</span></span>
-                                            <div className="background"><div className="bar"><div className="bar_in" /></div></div>
-                                        </div>
-                                        <div className="progress_inner" data-value={90} data-color="#ff214f">
-                                            <span><span className="label">Javascript</span><span className="number">90%</span></span>
-                                            <div className="background"><div className="bar"><div className="bar_in" /></div></div>
-                                        </div>
-                                        <div className="progress_inner" data-value={85} data-color="#ff214f">
-                                            <span><span className="label">WordPress</span><span className="number">85%</span></span>
-                                            <div className="background"><div className="bar"><div className="bar_in" /></div></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
