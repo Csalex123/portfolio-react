@@ -1,5 +1,9 @@
 import React from 'react';
 
+import Project from '../components/gallery';
+
+import Portfolio from '../static/images/portfolio/2.jpg';
+
 function portfolio(props) {
     return (
         <div className="arlo_tm_section" id="portfolio">
@@ -25,118 +29,33 @@ function portfolio(props) {
                         <div className="portfolio_list">
                             <ul className="gallery_zoom">
 
-                                <li className="berlim_plus">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Berlim Plus" data-category="Educação">
-                                            <a className="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/1.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                {/* Berlim Plus */}
 
-                                <li className="berlim_plus">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Berlim Plus" data-category="Educação">
-                                            <a className="popup-youtube" href="https://www.youtube.com/watch?v=ICr_bOuM9Zo">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/1.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                <Project nameClass="berlim_plus" category="Educação" title="Berlim Plus" img={Portfolio} />
 
                                 {/* Bresults */}
 
-                                <li className="bresults">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Bresults" data-category="Marketing Digital">
-                                            <a className="zoom" href="img/portfolio/2.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/2.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                <Project nameClass="bresults" category="Marketing Digital" title="Bresults" img={Portfolio} />
 
                                 {/* Coudelaria */}
 
-                                <li className="coudelaria">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Coudelaria" data-category="Eventos">
-                                            <a className="zoom" href="img/portfolio/8.webp">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/8.webp" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                <Project nameClass="coudelaria" category="Eventos" title="Coudelaria" img={Portfolio} />
 
                                 {/* Pedras do Patacho */}
 
-                                <li className="pedras">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Pedras do Patacho" data-category="Hotel">
-                                            <a className="zoom" href="img/portfolio/4.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/4.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                <Project nameClass="pedras" category="Hotel" title="Pedras do Patacho" img={Portfolio} />
 
                                 {/* Segsat */}
 
-                                <li className="segsat">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Segsat Plus" data-category="Seguro de carros">
-                                            <a className="zoom" href="img/portfolio/5.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/5.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                <Project nameClass="segsat" category="Segsat Plus" title="Seguro para automóveis " img={Portfolio} />
 
                                 {/* Horttas */}
 
-                                <li className="horttas">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Horttas" data-category="Ecologia">
-                                            <a className="zoom" href="img/portfolio/5.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/5.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
+                                <Project nameClass="horttas" category="Ecologia" title="Horttas " img={Portfolio} />
 
                                 {/* Living */}
 
-                                <li className="living">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Living" data-category="E-commerce">
-                                            <a className="zoom" href="img/portfolio/5.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/5.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li>
-
-
-
-                                {/* <li className="image">
-                                    <div className="inner">
-                                        <div className="entry arlo_tm_portfolio_animation_wrap" data-title="Popup Image" data-category="Image">
-                                            <a className="zoom" href="img/portfolio/6.jpg">
-                                                <img src="img/portfolio/600x600.jpg" alt="portfolio" />
-                                                <div className="main_image" data-img-url="img/portfolio/6.jpg" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </li> */}
+                                <Project nameClass="living" category="E-commerce" title="Living " img={Portfolio} />
 
                             </ul>
                         </div>
