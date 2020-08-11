@@ -61,8 +61,8 @@ function service(props) {
                             <li>
                                 <div className="inner">
                                     <div style={textCenter}>
-                                        <i className="fab fa-react fa-3x" style={corIcon}></i>
-                                        <h3>React Native</h3>
+                                        <i className="fas fa-file-code fa-3x" style={corIcon}></i>
+                                        <h3>NEXT.js</h3>
                                     </div>
                                 </div>
                             </li>
@@ -89,7 +89,7 @@ function service(props) {
                                 <div className="inner">
                                     <div style={textCenter}>
                                         <i className="fab fa-bootstrap fa-3x" style={corIcon}></i>
-                                        <h3>Boostrap</h3>
+                                        <h3>Bootstrap</h3>
                                     </div>
                                 </div>
                             </li>
