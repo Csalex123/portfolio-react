@@ -45,8 +45,8 @@ function menu(props) {
                             </div>
                             <div className="trigger">
                                 <a href="#">
-                                    <span className="menu"><i className="fas fa-bars" style={{ fontSize: '32px !important' }} /></span>
-                                    <span className="close"><i className="fas fa-times" style={{ fontSize: '32px !important' }} /></span>
+                                    <span className="menu"><i className="fas fa-bars fa-2x" /></span>
+                                    <span className="close"><i className="fas fa-times fa-2x" /></span>
                                 </a>
                             </div>
                         </div>

@@ -47,7 +47,7 @@ function portfolio(props) {
 
                                 {/* Segsat */}
 
-                                <Project nameClass="segsat" category="Segsat Plus" title="Seguro para automóveis " img={Portfolio} />
+                                <Project nameClass="segsat" category="Seguro para automóveis" title="Segsat Plus" img={Portfolio} />
 
                                 {/* Horttas */}
 

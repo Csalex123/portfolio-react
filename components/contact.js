@@ -55,7 +55,7 @@ function contact(props) {
                                 <li>
                                     <div style={{ textAlign: "center" }}>
                                         <i className="fas fa-envelope-open-text fa-2x" style={corIcon}></i>
-                                        <h3>Email</h3>
+                                        <h3>E-mail</h3>
                                         <p>alex.ricardo1999hotmail.com</p>
                                     </div>
                                 </li>
