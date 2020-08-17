@@ -69,7 +69,7 @@ function portfolio(props) {
                             </ul>
                         </div>
 
-                        <h4 style={{ color: "#fff", paddingBottom: "30px" }}>Clique e confira:</h4>
+                        <h4 style={{ color: "#fff", paddingBottom: "30px" }}>Confira:</h4>
                         <ul>
                             <li><a style={{ color: "#fff" }} href="http://berlimplus.com.br/" target="_blank">Berlim Plus</a></li>
                             <li><a style={{ color: "#fff" }} href="http://bresults.com.br/" target="_blank">Bresults</a></li>
