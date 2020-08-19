@@ -46,7 +46,7 @@ function portfolio(props) {
 
                                 <Project nameClass="bresults" category="Marketing Digital" title="Bresults" img={Bresults1} />
 
-                                {/* Coudelaria */}
+                                {/* Coudelaria Eventos */}
 
                                 {/* <Project nameClass="coudelaria" category="Eventos" title="Coudelaria" img={Portfolio} /> */}
 
