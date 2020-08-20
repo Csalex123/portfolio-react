@@ -64,7 +64,7 @@ function portfolio(props) {
 
                                 {/* Living */}
                                 {/* 
-                                <Project nameClass="living" category="E-commerce" title="Living " img={Portfolio} /> */}
+                                <Project nameClass="living" category="E-commerce" title="Living Interiores" img={Portfolio} /> */}
 
                             </ul>
                         </div>
